@@ -54,51 +54,6 @@ export default function Navbar({mobileMenu}) {
                                       className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">Portfolio</Link></span>
                                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                             </li>
-
-                            <li className="group pl-6">
-                            <span
-                                className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-                            >Clients</span>
-                                <span
-                                    className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
-                                ></span>
-                            </li>
-
-                            <li className="group pl-6">
-                            <span
-                                className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-                            >Work</span>
-                                <span
-                                    className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
-                                ></span>
-                            </li>
-
-                            <li className="group pl-6">
-                            <span
-                                className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-                            >Statistics</span>
-                                <span
-                                    className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
-                                ></span>
-                            </li>
-
-                            <li className="group pl-6">
-                            <span
-                                className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-                            >Blog</span>
-                                <span
-                                    className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
-                                ></span>
-                            </li>
-
-                            <li className="group pl-6">
-                            <span
-                                className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-                            >Contact</span>
-                                <span
-                                    className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"
-                                ></span>
-                            </li>
                         </ul>
                     </div>
                     <div className="block lg:hidden">
@@ -147,55 +102,6 @@ export default function Navbar({mobileMenu}) {
                             }} className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
                             >Portfolio</Link>
                         </li>
-
-                        <li className="py-2">
-
-                            <Link href={"#services"} scroll={false} onClick={() => {
-                                setMobileNav(false);
-                            }} className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-                            >Clients
-                            </Link>
-                        </li>
-
-                        <li className="py-2">
-
-                            <Link href={"#services"} scroll={false} onClick={() => {
-                                setMobileNav(false);
-                            }} className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-                            >Work
-                            </Link>
-                        </li>
-
-                        <li className="py-2">
-
-                            <Link href={"#services"} scroll={false} onClick={() => {
-                                setMobileNav(false);
-                            }} className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-                            >Statistics
-                            </Link>
-
-
-                        </li>
-
-                        <li className="py-2">
-
-                            <Link href={"#services"} scroll={false} onClick={() => {
-                                setMobileNav(false);
-                            }} className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-                            >Blog
-                            </Link>
-                        </li>
-
-                        <li className="py-2">
-
-                            <Link href={"#services"} scroll={false} onClick={() => {
-                                setMobileNav(false);
-                            }} className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-                            >Contact
-                            </Link>
-
-                        </li>
-
                     </ul>
                 </div>
             </div>
