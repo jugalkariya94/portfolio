@@ -30,7 +30,7 @@ export default function Navbar({mobileMenu}) {
                     <div>
                         <Link href="/">
                             <picture>
-                                <img alt="logo image" className="h-12 lg:h-16" src="/logo.png"/>
+                                <img alt="logo image" className="h-12 lg:h-16" src="/static/logo.png"/>
                             </picture>
                         </Link>
                     </div>

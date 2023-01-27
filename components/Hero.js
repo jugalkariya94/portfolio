@@ -20,7 +20,7 @@ export default function Hero() {
                             <img
                                 alt="author"
                                 className="h-48 rounded-full sm:h-56"
-                                src="/avatar.png"
+                                src="/static/avatar.png"
                             />
                         </picture>
                     </div>

@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "jugalkariya94",
   name: "Jugal Kariya",
   designation: "Full-Stack Developer",
-  avatarUrl: "/avatar.png",
+  avatarUrl: "/static/avatar.png",
   email: "jugalkariya@gmail.com",
   phone: "+91 9033970193",
   address: "Rajkot, Gujarat, India.",
@@ -10,33 +10,33 @@ const userData = {
     charset: 'utf-8',
     title: "Jugal Kariya - Full-stack Developer",
     description: `Jugal Kariya is a full stack developer based in Rajkot, Gujarat, India. Specializing in PHP, Laravel, Vue.js and React.js, he offers expert freelance development services for businesses and individuals. Visit his portfolio website to view his past projects and learn more about his skills and experience.`,
-    image: "/avatar.png",
+    image: "/static/avatar.png",
     type: "website"
   },
   projects: [
     {
       title: "Wholesale Helper",
       link: "https://wholesalehelper.io",
-      icon: "/wsh.png",
-      image: "/wsh-siteshot.png",
+      icon: "/static/wsh.png",
+      image: "/static/wsh-siteshot.png",
     },
     {
       title: "CartX",
       link: "https://cartpanda.com",
-      icon: "/cartpanda.png",
-      image: "/cp-siteshot.png",
+      icon: "/static/cartpanda.png",
+      image: "/static/cp-siteshot.png",
     },
     {
       title: "Erin Condren Design",
       link: "https://www.erincondren.com",
-      icon: "/ecd.jpg",
-      image: "/ecd-siteshot.png",
+      icon: "/static/ecd.jpg",
+      image: "/static/ecd-siteshot.png",
     },
     {
       title: "Olson Visual",
       link: "https://olsonvisual.com",
-      icon: "/ov.png",
-      image: "/ov-siteshot.png",
+      icon: "/static/ov.png",
+      image: "/static/ov-siteshot.png",
     }
   ],
   about: {
@@ -83,33 +83,33 @@ const userData = {
   },
   services: [
     {
-      icon: "/icons/icon-development-black.svg",
-      iconHover: "/icons/icon-development-white.svg",
+      icon: "/static/icons/icon-development-black.svg",
+      iconHover: "/static/icons/icon-development-white.svg",
       title: "Web Development",
       description: "With expertise in HTML, CSS, and JavaScript, I am a skilled web developer capable of building dynamic and engaging websites."
     }, {
-      icon: "/icons/icon-content-black.svg",
-      iconHover: "/icons/icon-content-white.svg",
+      icon: "/static/icons/icon-content-black.svg",
+      iconHover: "/static/icons/icon-content-white.svg",
       title: "Technical Writing",
       description: "Expert in technical writing, able to explain complex information clearly and effectively."
     }, {
-      icon: "/icons/icon-mobile-black.svg",
-      iconHover: "/icons/icon-mobile-white.svg",
+      icon: "/static/icons/icon-mobile-black.svg",
+      iconHover: "/static/icons/icon-mobile-white.svg",
       title: "Mobile Development",
       description: "Proficient in developing mobile apps using various platforms and technologies, delivering seamless user experience."
     }, {
-      icon: "/icons/icon-email-black.svg",
-      iconHover: "/icons/icon-email-white.svg",
+      icon: "/static/icons/icon-email-black.svg",
+      iconHover: "/static/icons/icon-email-white.svg",
       title: "Email Development",
       description: "Experienced in creating responsive, high-performing email campaigns using email marketing tools and best practices."
     }, {
-      icon: "/icons/icon-design-black.svg",
-      iconHover: "/icons/icon-design-white.svg",
+      icon: "/static/icons/icon-design-black.svg",
+      iconHover: "/static/icons/icon-design-white.svg",
       title: "Graphic Design",
       description: "Adept in creating visually stunning designs using graphic design software, with a strong sense of aesthetics and attention to detail."
     }, {
-      icon: "/icons/icon-graphics-black.svg",
-      iconHover: "/icons/icon-graphics-white.svg",
+      icon: "/static/icons/icon-graphics-black.svg",
+      iconHover: "/static/icons/icon-graphics-white.svg",
       title: "Web Design",
       description: "Skilled in web design, with expertise in creating visually appealing and user-friendly websites using front-end technologies."
     }
