@@ -24,11 +24,14 @@ export default function Navbar({mobileMenu}) {
 
     return (
         <>
-            <div className="w-full z-50 top-0 py-3 sm:py-5  absolute sticky bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to ">
+            <div
+                className="w-full z-50 top-0 py-3 sm:py-5  absolute sticky bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to ">
                 <div className="container flex items-center justify-between">
                     <div>
                         <Link href="/">
-                            <img alt="logo image" className="h-12 lg:h-16" src="/logo.png"/>
+                            <picture>
+                                <img alt="logo image" className="h-12 lg:h-16" src="/logo.png"/>
+                            </picture>
                         </Link>
                     </div>
                     <div className="hidden lg:block">
@@ -102,12 +105,13 @@ export default function Navbar({mobileMenu}) {
                         <button onClick={() => {
                             setMobileNav(true);
                         }}>
-                        <i className="bx bx-menu text-4xl text-white"></i>
-                    </button>
-                </div>
+                            <i className="bx bx-menu text-4xl text-white"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
-            <div className={`fixed inset-0 z-70 min-h-screen bg-black bg-opacity-70 transition-opacity lg:hidden ${isNavOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
+            <div
+                className={`fixed inset-0 z-70 min-h-screen bg-black bg-opacity-70 transition-opacity lg:hidden ${isNavOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
             >
                 <div className="absolute right-0 min-h-screen w-2/3 bg-primary py-4 px-8 shadow md:w-1/3">
 

@@ -15,15 +15,15 @@ export default function About() {
                     <h4
                         className="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"
                     >
-                        I'm Jugal Kariya, a Full-stack developer
+                        I&apos;m Jugal Kariya, a Full-stack developer
                     </h4>
                     <p className="pt-6 font-body leading-relaxed text-grey-20">
-                        As a web developer with mad skills in Laravel, VueJS, and ReactJS, I'm the superhero your
+                        As a web developer with mad skills in Laravel, VueJS, and ReactJS, I&apos;m the superhero your
                         business needs to elevate its online presence. I can turn your ordinary website into a soaring
                         success, taking it from zero to hero with lightning-fast speed and super smooth functionality.
-                        Plus, my powers don't stop at just the technical stuff – I've got a creative streak that helps
-                        me craft visually stunning sites that'll leave your competitors green with envy. So if you're
-                        ready to join forces with a web development superhero, let's team up and take your online
+                        Plus, my powers don&apos;t stop at just the technical stuff – I&apos;ve got a creative streak that helps
+                        me craft visually stunning sites that&apos;ll leave your competitors green with envy. So if you&apos;re
+                        ready to join forces with a web development superhero, let&apos;s team up and take your online
                         presence to new heights!
                     </p>
                     <div
