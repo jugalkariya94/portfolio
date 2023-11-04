@@ -22,18 +22,6 @@ export default function ContainerBlock({ children}) {
           rel="canonical"
           href={`https://jugalkariya.dev${router.asPath}`}
         />
-        <link
-            rel="canonical"
-            href={`http://jugalkariya.dev${router.asPath}`}
-        />
-        <link
-            rel="canonical"
-            href={`http://www.jugalkariya.dev${router.asPath}`}
-        />
-        <link
-            rel="canonical"
-            href={`https://www.jugalkariya.dev${router.asPath}`}
-        />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content={userData.name} />
         <meta property="og:description" content={meta.description} />
