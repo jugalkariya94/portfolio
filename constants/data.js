@@ -15,6 +15,12 @@ const userData = {
   },
   projects: [
     {
+      title: "StoreWatchers",
+      link: "https://storewatchers.com",
+      icon: "/static/wsh.png",
+      image: "/static/sw-siteshot.png",
+    },
+    {
       title: "Wholesale Helper",
       link: "https://wholesalehelper.io",
       icon: "/static/wsh.png",
@@ -52,6 +58,13 @@ const userData = {
   experience: [
     {
       title: "Software Developer",
+      company: "StoreWatchers",
+      year: "2022",
+      companyLink: "https://storewatchers.com",
+      desc: "Worked on creating product to automate shopify store tests.",
+    },
+    {
+      title: "Software Developer",
       company: "wsh",
       year: "2021",
       companyLink: "https://wholesalehelper.io",
@@ -79,6 +92,7 @@ const userData = {
     linkedin: "https://linkedin.com/in/jugal-kariya-6094a482/",
     github: "https://github.com/jugalkariya94",
     facebook: "https://facebook.com/jugal.kariya",
+    portfolio: "https://drive.google.com/file/d/1jVdEV1pHUwS69TAL7QroHrCcTpcLJdI_/view",
     mail: "mailto:jugalkariya@gmail.com",
   },
   services: [

@@ -40,27 +40,32 @@ export default function About() {
                         <div
                             className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0"
                         >
-                            <Link href={userData.socialLinks.facebook}>
+                            <Link href={userData.socialLinks.facebook} target={"_blank"}>
                                 <i
                                     className="bx bxl-facebook-square text-2xl text-primary hover:text-yellow"
                                 ></i>
                             </Link>
-                            <Link className="pl-4" href={userData.socialLinks.twitter}>
+                            <Link className="pl-4" href={userData.socialLinks.twitter} target={"_blank"}>
                                 <i
                                     className="bx bxl-twitter text-2xl text-primary hover:text-yellow"
                                 ></i>
                             </Link>
-                            <Link className="pl-4" href={userData.socialLinks.linkedin}>
+                            <Link className="pl-4" href={userData.socialLinks.linkedin} target={"_blank"}>
                                 <i
                                     className="bx bxl-linkedin text-2xl text-primary hover:text-yellow"
                                 ></i>
                             </Link>
-                            <Link className="pl-4" href={userData.socialLinks.github}>
+                            <Link className="pl-4" href={userData.socialLinks.github} target={"_blank"}>
                                 <i
                                     className="bx bxl-github text-2xl text-primary hover:text-yellow"
                                 ></i>
                             </Link>
-                            <Link className="pl-4" href={userData.socialLinks.mail}>
+                            <Link className="pl-4" href={userData.socialLinks.portfolio} target={"_blank"}>
+                                <i
+                                    className="bx bxs-file text-2xl text-primary hover:text-yellow"
+                                ></i>
+                            </Link>
+                            <Link className="pl-4" href={userData.socialLinks.mail} target={"_blank"}>
                                 <i
                                     className="bx bxs-envelope text-2xl text-primary hover:text-yellow"
                                 ></i>
